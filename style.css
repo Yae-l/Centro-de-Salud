@@ -1,0 +1,269 @@
+body {
+    font-family:'serif','Open Sans', sans-serif, cursive; 
+    margin: 0;
+    padding: 0;
+    background-image: url("mujeres1.jpg");
+    background-size: cover;
+    background-position-x: center;
+  }
+
+  header {
+    background-image:url("mujeres2.jpg");
+    background-size: cover;
+    background-position-x: center;
+    padding: 270px;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    padding: 10px;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #nosotros {
+    background-color: #f9f9f9; 
+    padding: 60px 20px;        
+    border-radius: 10px;     
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
+    max-width: 800px;          
+    margin: 0 auto;            
+    text-align: center;        
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+#contacto {
+    background-color:whitesmoke;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #contacto h2 {
+    font-family: sans-serif, serif;
+    color:black;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #contacto label {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  #contacto input[type="text"],
+  #contacto input[type="email"],
+  #contacto textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #f48fb1;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  #contacto input[type="text"]:focus,
+  #contacto input[type="email"]:focus,
+  #contacto textarea:focus {
+    border-color: pink; 
+    outline: none;
+  }
+  
+  #contacto button[type="submit"] {
+    background-color:pink; 
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contacto button[type="submit"]:hover {
+    background-color:pink;
+
+  }
+  @media (max-width: 600px) 
+  {
+    #contacto {
+      padding: 20px;
+    }
+  
+    #contacto h2 {
+      font-size: 24px;
+    }
+  
+    #contacto button[type="submit"] {
+      font-size: 16px;
+    }
+  }
+
+  footer {
+    background-color:pink;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .specialties {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color:#f1dede;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  specialty {
+    flex: 1 1 calc(50% - 20px);     
+    background-color: pink;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .specialty:hover {
+    background-color: lightpink;    
+    transform: translateY(-5px);    
+  }
+  
+  @media (max-width: 768px) 
+    .specialty {
+      flex: 1 1 100%;  
+    }   
+
+  
+#turnos {
+  background-color: #f1f1f1;              
+  padding: 50px 20px;                      
+  text-align: center;                     
+  border-radius: 10px;                     
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
+  margin: 40px auto;                       
+  max-width: 800px;                        
+}
+
+#turnos h3 {
+  font-family: serif;           
+  font-size: 2rem;                        
+  color: #333;                           
+  margin-bottom: 20px;                   
+  letter-spacing: 1px;                
+  position: relative;
+}
+
+#turnos h3::after {
+  content: '';
+  display: block;
+  width: 60px;                            
+  height: 3px;
+  background-color: pink;    
+  margin: 10px auto;
+}
+
+.cta-button {
+  font-family: 'Helvetica', sans-serif;    
+  background-color: pink;               
+  color: #fff;                            
+  padding: 15px 30px;                    
+  font-size: 1.1rem;                       
+  border: none;                            
+  border-radius: 25px;                    
+  text-decoration: none;                   
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #d81b60;               
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+
+footer {
+  background-color: #333;                 
+  padding: 20px 20px;                     
+  text-align: center;                      
+  color: #fff;                             
+  margin-top: 20px;                       
+  border-radius: 0 0 10px 10px;            
+}
+
+footer p {
+  font-family: serif;           
+  font-size: 1.5rem;                      
+  margin-bottom: 20px;                     
+}
+
+footer a {
+  color: #e91e63;                          
+  margin: 0 10px;                        
+  font-size: 1.8rem;                      
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;                             
+  transform: scale(1.2);                   
+}
+
+
+@media (max-width: 768px) {
+  #turnos {
+    padding: 30px 15px;                   
+  }
+
+  #turnos h3 {
+    font-size: 1.8rem;                     
+  }
+
+  .cta-button {
+    font-size: 1rem;                       
+  }
+
+  footer p {
+    font-size: 1.2rem;                    
+  }
+
+  footer a {
+    font-size: 1.5rem;                    
+  }
+}
+
